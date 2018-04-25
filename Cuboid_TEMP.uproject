@@ -5,12 +5,13 @@
 	"Description": "",
 	"Plugins": [
 		{
-			"Name": "SoundVisualizations",
+			"Name": "GoogleVRHMD",
 			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
 		"PS4",
-		"WindowsNoEditor"
+		"WindowsNoEditor",
+		"Android"
 	]
 }
