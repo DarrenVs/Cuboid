@@ -5,6 +5,10 @@
 	"Description": "",
 	"Plugins": [
 		{
+			"Name": "SoundVisualizations",
+			"Enabled": true
+		},
+		{
 			"Name": "GoogleVRHMD",
 			"Enabled": true
 		}
