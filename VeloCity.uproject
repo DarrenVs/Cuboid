@@ -9,8 +9,8 @@
 			"Enabled": true
 		},
 		{
-			"Name": "GoogleVRHMD",
-			"Enabled": true
+			"Name": "OculusVR",
+			"Enabled": false
 		}
 	],
 	"TargetPlatforms": [
