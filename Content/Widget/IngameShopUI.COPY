@@ -1,0 +1,514 @@
+Begin Object Class=/Script/UMGEditor.WidgetBlueprint Name="IngameShopUI"
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_2"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_1"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_0"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_ComponentBoundEvent Name="K2Node_ComponentBoundEvent_75"
+      End Object
+   End Object
+   Begin Object Class=/Script/UMG.WidgetTree Name="WidgetTree" Archetype=WidgetTree'/Script/UMGEditor.Default__WidgetBlueprint:WidgetTree'
+      Begin Object Class=/Script/UMG.CanvasPanel Name="CanvasPanel_0"
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_0"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_10"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_9"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_4"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_8"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_7"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_6"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_3"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_5"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_1"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_11"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_56"
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_142"
+      End Object
+      Begin Object Class=/Script/UMG.Button Name="Button_143"
+         Begin Object Class=/Script/UMG.ButtonSlot Name="ButtonSlot_0"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_141"
+      End Object
+      Begin Object Class=/Script/UMG.Button Name="Button_142"
+         Begin Object Class=/Script/UMG.ButtonSlot Name="ButtonSlot_0"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_136"
+      End Object
+      Begin Object Class=/Script/UMG.Button Name="Button_137"
+         Begin Object Class=/Script/UMG.ButtonSlot Name="ButtonSlot_0"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_140"
+      End Object
+      Begin Object Class=/Script/UMG.Button Name="Button_141"
+         Begin Object Class=/Script/UMG.ButtonSlot Name="ButtonSlot_0"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_139"
+      End Object
+      Begin Object Class=/Script/UMG.Button Name="Button_140"
+         Begin Object Class=/Script/UMG.ButtonSlot Name="ButtonSlot_0"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_138"
+      End Object
+      Begin Object Class=/Script/UMG.Button Name="Button_139"
+         Begin Object Class=/Script/UMG.ButtonSlot Name="ButtonSlot_0"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_134"
+      End Object
+      Begin Object Class=/Script/UMG.Button Name="Button_135"
+         Begin Object Class=/Script/UMG.ButtonSlot Name="ButtonSlot_0"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_132"
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_137"
+      End Object
+      Begin Object Class=/Script/UMG.Button Name="Button_138"
+         Begin Object Class=/Script/UMG.ButtonSlot Name="ButtonSlot_0"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Button Name="Button_43"
+         Begin Object Class=/Script/UMG.ButtonSlot Name="ButtonSlot_0"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Button Name="Button_144"
+         Begin Object Class=/Script/UMG.ButtonSlot Name="ButtonSlot_0"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="TextBlock_143"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="GetVisibility_0"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionResult Name="K2Node_FunctionResult_1"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_5"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="GetbIsEnabled_0"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionResult Name="K2Node_FunctionResult_0"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_0"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="BndEvt__Button_43_K2Node_ComponentBoundEvent_75_OnButtonClickedEvent__DelegateSignature"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_36"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_75"
+      End Object
+   End Object
+   Begin Object Name="EventGraph"
+      Begin Object Name="K2Node_Event_2"
+         EventReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="Tick")
+         bOverrideFunction=True
+         NodePosY=400
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=548FCA694C477984316040935C413790
+         CustomProperties Pin (PinId=6DD59F6E4284FE7F942C8392BF84E8A2,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="Tick"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=B65BFB3A45FEAF1E8C5570949176443C,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=79DF33894FAC89D415134F91691AF33D,PinName="MyGeometry",PinToolTip="My Geometry\nGeometry Structure\n\nThe space allotted for this widget",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject=ScriptStruct'"/Script/SlateCore.Geometry"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=74ADF6A940A9EAC1848C33A9A144AE98,PinName="InDeltaTime",PinToolTip="In Delta Time\nFloat\n\nReal time passed since last tick",Direction="EGPD_Output",PinType.PinCategory="float",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_1"
+         EventReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="Construct")
+         bOverrideFunction=True
+         NodePosY=200
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=2F1522DC4726D6D838A488832B6305DE
+         CustomProperties Pin (PinId=AC68BD4A4B8791EEDB4F128DFD0BDA91,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="Construct"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=4AAE573A4B8CC0ACC377FF9E7F1DFE14,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_0"
+         EventReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="PreConstruct")
+         bOverrideFunction=True
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=A4EE9586493E964B6C5B28B7B67B15BE
+         CustomProperties Pin (PinId=50521147429732967CB3BF9503FC4F36,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=Class'"/Script/UMG.UserWidget"',MemberName="PreConstruct"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=35F302AE4333E31E1F234E9C00E1BD30,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=D0A23D7647279052EF0FD2B4100B275F,PinName="IsDesignTime",PinToolTip="Is Design Time\nBoolean",Direction="EGPD_Output",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="false",AutogeneratedDefaultValue="false",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_ComponentBoundEvent_75"
+         DelegatePropertyName="OnClicked"
+         DelegateOwnerClass=Class'"/Script/UMG.Button"'
+         ComponentPropertyName="Button_43"
+         DelegatePropertyDisplayName=NSLOCTEXT("UObjectDisplayNames", "Button:OnClicked", "On Clicked")
+         EventReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         bInternalEvent=True
+         CustomFunctionName="BndEvt__Button_43_K2Node_ComponentBoundEvent_75_OnButtonClickedEvent__DelegateSignature"
+         NodePosY=656
+         NodeGuid=ECDF7F8248BE0A7996DD748FC03B43C1
+         CustomProperties Pin (PinId=4E5F2AD348BEBA2B441CB3B5D580D352,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent=WidgetBlueprintGeneratedClass'"/Game/Maps/Menu/IngameShopUI.IngameShopUI_C"',MemberName="BndEvt__Button_43_K2Node_ComponentBoundEvent_75_OnButtonClickedEvent__DelegateSignature"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=B0D6822A4518C278CF793B803DAC1AD2,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=7A0E3224455DC83DA6275898BE0C8904,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema=Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      Nodes(0)=K2Node_Event'"K2Node_Event_0"'
+      Nodes(1)=K2Node_Event'"K2Node_Event_1"'
+      Nodes(2)=K2Node_Event'"K2Node_Event_2"'
+      Nodes(3)=K2Node_ComponentBoundEvent'"K2Node_ComponentBoundEvent_75"'
+      bAllowDeletion=False
+      GraphGuid=65DE50C14A1D9E48DA9B2CB4192AE63D
+   End Object
+   Begin Object Name="WidgetTree"
+      Begin Object Name="CanvasPanel_0"
+         Begin Object Name="CanvasPanelSlot_0"
+            LayoutData=(Offsets=(Left=-144.000000,Top=96.000000,Right=298.147156,Bottom=106.066071),Anchors=(Minimum=(X=0.500000,Y=0.000000),Maximum=(X=0.500000,Y=0.000000)))
+            Parent=CanvasPanel'"IngameShopUI:WidgetTree.CanvasPanel_0"'
+            Content=TextBlock'"IngameShopUI:WidgetTree.TextBlock_56"'
+         End Object
+         Begin Object Name="CanvasPanelSlot_10"
+            LayoutData=(Offsets=(Left=1272.000000,Top=240.000000,Right=420.000000,Bottom=100.000000))
+            Parent=CanvasPanel'"IngameShopUI:WidgetTree.CanvasPanel_0"'
+            Content=Button'"IngameShopUI:WidgetTree.Button_143"'
+         End Object
+         Begin Object Name="CanvasPanelSlot_9"
+            LayoutData=(Offsets=(Left=1272.000000,Top=356.000000,Right=420.000000,Bottom=100.000000))
+            Parent=CanvasPanel'"IngameShopUI:WidgetTree.CanvasPanel_0"'
+            Content=Button'"IngameShopUI:WidgetTree.Button_142"'
+         End Object
+         Begin Object Name="CanvasPanelSlot_4"
+            LayoutData=(Offsets=(Left=272.000000,Top=472.000000,Right=420.000000,Bottom=100.000000))
+            Parent=CanvasPanel'"IngameShopUI:WidgetTree.CanvasPanel_0"'
+            Content=Button'"IngameShopUI:WidgetTree.Button_137"'
+         End Object
+         Begin Object Name="CanvasPanelSlot_8"
+            LayoutData=(Offsets=(Left=1272.000000,Top=472.000000,Right=420.000000,Bottom=100.000000))
+            Parent=CanvasPanel'"IngameShopUI:WidgetTree.CanvasPanel_0"'
+            Content=Button'"IngameShopUI:WidgetTree.Button_141"'
+         End Object
+         Begin Object Name="CanvasPanelSlot_7"
+            LayoutData=(Offsets=(Left=1272.000000,Top=588.000000,Right=420.000000,Bottom=100.000000))
+            Parent=CanvasPanel'"IngameShopUI:WidgetTree.CanvasPanel_0"'
+            Content=Button'"IngameShopUI:WidgetTree.Button_140"'
+         End Object
+         Begin Object Name="CanvasPanelSlot_6"
+            LayoutData=(Offsets=(Left=272.000000,Top=704.000000,Right=420.000000,Bottom=100.000000))
+            Parent=CanvasPanel'"IngameShopUI:WidgetTree.CanvasPanel_0"'
+            Content=Button'"IngameShopUI:WidgetTree.Button_139"'
+         End Object
+         Begin Object Name="CanvasPanelSlot_3"
+            LayoutData=(Offsets=(Left=272.000000,Top=356.000000,Right=420.000000,Bottom=100.000000))
+            Parent=CanvasPanel'"IngameShopUI:WidgetTree.CanvasPanel_0"'
+            Content=Button'"IngameShopUI:WidgetTree.Button_135"'
+         End Object
+         Begin Object Name="CanvasPanelSlot_5"
+            LayoutData=(Offsets=(Left=272.000000,Top=588.000000,Right=420.000000,Bottom=100.000000))
+            Parent=CanvasPanel'"IngameShopUI:WidgetTree.CanvasPanel_0"'
+            Content=Button'"IngameShopUI:WidgetTree.Button_138"'
+         End Object
+         Begin Object Name="CanvasPanelSlot_1"
+            LayoutData=(Offsets=(Left=272.000000,Top=240.000000,Right=420.000000,Bottom=100.000000))
+            Parent=CanvasPanel'"IngameShopUI:WidgetTree.CanvasPanel_0"'
+            Content=Button'"IngameShopUI:WidgetTree.Button_43"'
+         End Object
+         Begin Object Name="CanvasPanelSlot_11"
+            LayoutData=(Offsets=(Left=1272.000000,Top=704.000000,Right=420.000000,Bottom=100.000000))
+            Parent=CanvasPanel'"IngameShopUI:WidgetTree.CanvasPanel_0"'
+            Content=Button'"IngameShopUI:WidgetTree.Button_144"'
+         End Object
+         Slots(0)=CanvasPanelSlot'"CanvasPanelSlot_0"'
+         Slots(1)=CanvasPanelSlot'"CanvasPanelSlot_1"'
+         Slots(2)=CanvasPanelSlot'"CanvasPanelSlot_3"'
+         Slots(3)=CanvasPanelSlot'"CanvasPanelSlot_4"'
+         Slots(4)=CanvasPanelSlot'"CanvasPanelSlot_5"'
+         Slots(5)=CanvasPanelSlot'"CanvasPanelSlot_6"'
+         Slots(6)=CanvasPanelSlot'"CanvasPanelSlot_7"'
+         Slots(7)=CanvasPanelSlot'"CanvasPanelSlot_8"'
+         Slots(8)=CanvasPanelSlot'"CanvasPanelSlot_9"'
+         Slots(9)=CanvasPanelSlot'"CanvasPanelSlot_10"'
+         Slots(10)=CanvasPanelSlot'"CanvasPanelSlot_11"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="TextBlock_56"
+         Text=NSLOCTEXT("[FD7FC2F24BDFE3D57CEC869336A5C865]", "DCF84A4A49BFF3942CFC19A14F63B732", "Shop")
+         Font=(Size=62)
+         Justification=Center
+         Slot=CanvasPanelSlot'"IngameShopUI:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="TextBlock_142"
+         Text=NSLOCTEXT("[FD7FC2F24BDFE3D57CEC869336A5C865]", "44B571CF408D5F059DAF41A3D5D8C690", "Placeholder")
+         Slot=ButtonSlot'"IngameShopUI:WidgetTree.Button_143.ButtonSlot_0"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Button_143"
+         Begin Object Name="ButtonSlot_0"
+            Parent=Button'"IngameShopUI:WidgetTree.Button_143"'
+            Content=TextBlock'"IngameShopUI:WidgetTree.TextBlock_142"'
+         End Object
+         BackgroundColor=(R=0.258333,G=0.257788,B=0.178681,A=1.000000)
+         Slots(0)=ButtonSlot'"ButtonSlot_0"'
+         Slot=CanvasPanelSlot'"IngameShopUI:WidgetTree.CanvasPanel_0.CanvasPanelSlot_10"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="TextBlock_141"
+         Text=NSLOCTEXT("[FD7FC2F24BDFE3D57CEC869336A5C865]", "44B571CF408D5F059DAF41A3D5D8C690", "Placeholder")
+         Slot=ButtonSlot'"IngameShopUI:WidgetTree.Button_142.ButtonSlot_0"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Button_142"
+         Begin Object Name="ButtonSlot_0"
+            Parent=Button'"IngameShopUI:WidgetTree.Button_142"'
+            Content=TextBlock'"IngameShopUI:WidgetTree.TextBlock_141"'
+         End Object
+         BackgroundColor=(R=0.258333,G=0.257788,B=0.178681,A=1.000000)
+         Slots(0)=ButtonSlot'"ButtonSlot_0"'
+         Slot=CanvasPanelSlot'"IngameShopUI:WidgetTree.CanvasPanel_0.CanvasPanelSlot_9"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="TextBlock_136"
+         Text=NSLOCTEXT("[FD7FC2F24BDFE3D57CEC869336A5C865]", "44B571CF408D5F059DAF41A3D5D8C690", "Placeholder")
+         Slot=ButtonSlot'"IngameShopUI:WidgetTree.Button_137.ButtonSlot_0"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Button_137"
+         Begin Object Name="ButtonSlot_0"
+            Parent=Button'"IngameShopUI:WidgetTree.Button_137"'
+            Content=TextBlock'"IngameShopUI:WidgetTree.TextBlock_136"'
+         End Object
+         BackgroundColor=(R=0.258333,G=0.257788,B=0.178681,A=1.000000)
+         Slots(0)=ButtonSlot'"ButtonSlot_0"'
+         Slot=CanvasPanelSlot'"IngameShopUI:WidgetTree.CanvasPanel_0.CanvasPanelSlot_4"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="TextBlock_140"
+         Text=NSLOCTEXT("[FD7FC2F24BDFE3D57CEC869336A5C865]", "44B571CF408D5F059DAF41A3D5D8C690", "Placeholder")
+         Slot=ButtonSlot'"IngameShopUI:WidgetTree.Button_141.ButtonSlot_0"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Button_141"
+         Begin Object Name="ButtonSlot_0"
+            Parent=Button'"IngameShopUI:WidgetTree.Button_141"'
+            Content=TextBlock'"IngameShopUI:WidgetTree.TextBlock_140"'
+         End Object
+         BackgroundColor=(R=0.258333,G=0.257788,B=0.178681,A=1.000000)
+         Slots(0)=ButtonSlot'"ButtonSlot_0"'
+         Slot=CanvasPanelSlot'"IngameShopUI:WidgetTree.CanvasPanel_0.CanvasPanelSlot_8"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="TextBlock_139"
+         Text=NSLOCTEXT("[FD7FC2F24BDFE3D57CEC869336A5C865]", "44B571CF408D5F059DAF41A3D5D8C690", "Placeholder")
+         Slot=ButtonSlot'"IngameShopUI:WidgetTree.Button_140.ButtonSlot_0"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Button_140"
+         Begin Object Name="ButtonSlot_0"
+            Parent=Button'"IngameShopUI:WidgetTree.Button_140"'
+            Content=TextBlock'"IngameShopUI:WidgetTree.TextBlock_139"'
+         End Object
+         BackgroundColor=(R=0.258333,G=0.257788,B=0.178681,A=1.000000)
+         Slots(0)=ButtonSlot'"ButtonSlot_0"'
+         Slot=CanvasPanelSlot'"IngameShopUI:WidgetTree.CanvasPanel_0.CanvasPanelSlot_7"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="TextBlock_138"
+         Text=NSLOCTEXT("[FD7FC2F24BDFE3D57CEC869336A5C865]", "44B571CF408D5F059DAF41A3D5D8C690", "Placeholder")
+         Slot=ButtonSlot'"IngameShopUI:WidgetTree.Button_139.ButtonSlot_0"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Button_139"
+         Begin Object Name="ButtonSlot_0"
+            Parent=Button'"IngameShopUI:WidgetTree.Button_139"'
+            Content=TextBlock'"IngameShopUI:WidgetTree.TextBlock_138"'
+         End Object
+         BackgroundColor=(R=0.258333,G=0.257788,B=0.178681,A=1.000000)
+         Slots(0)=ButtonSlot'"ButtonSlot_0"'
+         Slot=CanvasPanelSlot'"IngameShopUI:WidgetTree.CanvasPanel_0.CanvasPanelSlot_6"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="TextBlock_134"
+         Text=NSLOCTEXT("[FD7FC2F24BDFE3D57CEC869336A5C865]", "44B571CF408D5F059DAF41A3D5D8C690", "Placeholder")
+         Slot=ButtonSlot'"IngameShopUI:WidgetTree.Button_135.ButtonSlot_0"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Button_135"
+         Begin Object Name="ButtonSlot_0"
+            Parent=Button'"IngameShopUI:WidgetTree.Button_135"'
+            Content=TextBlock'"IngameShopUI:WidgetTree.TextBlock_134"'
+         End Object
+         BackgroundColor=(R=0.258333,G=0.257788,B=0.178681,A=1.000000)
+         Slots(0)=ButtonSlot'"ButtonSlot_0"'
+         Slot=CanvasPanelSlot'"IngameShopUI:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="TextBlock_132"
+         Text=NSLOCTEXT("[FD7FC2F24BDFE3D57CEC869336A5C865]", "49102E52473FBE5FB12AE281B7EFCE9B", "2 Extra Lives")
+         Slot=ButtonSlot'"IngameShopUI:WidgetTree.Button_43.ButtonSlot_0"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="TextBlock_137"
+         Text=NSLOCTEXT("[FD7FC2F24BDFE3D57CEC869336A5C865]", "44B571CF408D5F059DAF41A3D5D8C690", "Placeholder")
+         Slot=ButtonSlot'"IngameShopUI:WidgetTree.Button_138.ButtonSlot_0"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Button_138"
+         Begin Object Name="ButtonSlot_0"
+            Parent=Button'"IngameShopUI:WidgetTree.Button_138"'
+            Content=TextBlock'"IngameShopUI:WidgetTree.TextBlock_137"'
+         End Object
+         BackgroundColor=(R=0.258333,G=0.257788,B=0.178681,A=1.000000)
+         Slots(0)=ButtonSlot'"ButtonSlot_0"'
+         Slot=CanvasPanelSlot'"IngameShopUI:WidgetTree.CanvasPanel_0.CanvasPanelSlot_5"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Button_43"
+         Begin Object Name="ButtonSlot_0"
+            Parent=Button'"IngameShopUI:WidgetTree.Button_43"'
+            Content=TextBlock'"IngameShopUI:WidgetTree.TextBlock_132"'
+         End Object
+         BackgroundColor=(R=0.258333,G=0.257788,B=0.178681,A=1.000000)
+         Slots(0)=ButtonSlot'"ButtonSlot_0"'
+         Slot=CanvasPanelSlot'"IngameShopUI:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="Button_144"
+         Begin Object Name="ButtonSlot_0"
+            Parent=Button'"IngameShopUI:WidgetTree.Button_144"'
+            Content=TextBlock'"IngameShopUI:WidgetTree.TextBlock_143"'
+         End Object
+         BackgroundColor=(R=0.258333,G=0.257788,B=0.178681,A=1.000000)
+         Slots(0)=ButtonSlot'"ButtonSlot_0"'
+         Slot=CanvasPanelSlot'"IngameShopUI:WidgetTree.CanvasPanel_0.CanvasPanelSlot_11"'
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="TextBlock_143"
+         Text=NSLOCTEXT("[FD7FC2F24BDFE3D57CEC869336A5C865]", "44B571CF408D5F059DAF41A3D5D8C690", "Placeholder")
+         Slot=ButtonSlot'"IngameShopUI:WidgetTree.Button_144.ButtonSlot_0"'
+         bExpandedInDesigner=True
+      End Object
+      RootWidget=CanvasPanel'"CanvasPanel_0"'
+      AllWidgets(0)=CanvasPanel'"CanvasPanel_0"'
+      AllWidgets(1)=TextBlock'"TextBlock_56"'
+      AllWidgets(2)=Button'"Button_43"'
+      AllWidgets(3)=TextBlock'"TextBlock_132"'
+      AllWidgets(4)=Button'"Button_135"'
+      AllWidgets(5)=TextBlock'"TextBlock_134"'
+      AllWidgets(6)=Button'"Button_137"'
+      AllWidgets(7)=TextBlock'"TextBlock_136"'
+      AllWidgets(8)=Button'"Button_138"'
+      AllWidgets(9)=TextBlock'"TextBlock_137"'
+      AllWidgets(10)=Button'"Button_139"'
+      AllWidgets(11)=TextBlock'"TextBlock_138"'
+      AllWidgets(12)=Button'"Button_140"'
+      AllWidgets(13)=TextBlock'"TextBlock_139"'
+      AllWidgets(14)=Button'"Button_141"'
+      AllWidgets(15)=TextBlock'"TextBlock_140"'
+      AllWidgets(16)=Button'"Button_142"'
+      AllWidgets(17)=TextBlock'"TextBlock_141"'
+      AllWidgets(18)=Button'"Button_143"'
+      AllWidgets(19)=TextBlock'"TextBlock_142"'
+      AllWidgets(20)=Button'"Button_144"'
+      AllWidgets(21)=TextBlock'"TextBlock_143"'
+   End Object
+   Begin Object Name="GetVisibility_0"
+      Begin Object Name="K2Node_FunctionResult_1"
+         FunctionReference=(MemberName="GetVisibility_0")
+         bIsEditable=True
+         NodePosX=256
+         NodeGuid=FC460699436C1DC82FC327B346668837
+         CustomProperties Pin (PinId=ABB5F1644EE36F8CD72664ABC223444C,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_FunctionEntry_5 84668EE849FC5EBE0C5BC98C0E588F11,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=C489FAAD4F5F9153B4DDD99427CFD161,PinName="ReturnValue",PinType.PinCategory="byte",PinType.PinSubCategory="",PinType.PinSubCategoryObject=Enum'"/Script/UMG.ESlateVisibility"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="Visible",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties UserDefinedPin (PinName="ReturnValue",PinType=(PinCategory="byte",PinSubCategoryObject=Enum'"/Script/UMG.ESlateVisibility"'),DesiredPinDirection=EGPD_Input)
+      End Object
+      Begin Object Name="K2Node_FunctionEntry_5"
+         ExtraFlags=469893120
+         FunctionReference=(MemberName="GetVisibility_0")
+         bIsEditable=True
+         NodeGuid=42588EF3406F02B53A3B08BFB8DCD520
+         CustomProperties Pin (PinId=84668EE849FC5EBE0C5BC98C0E588F11,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_FunctionResult_1 ABB5F1644EE36F8CD72664ABC223444C,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema=Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      Nodes(0)=K2Node_FunctionEntry'"K2Node_FunctionEntry_5"'
+      Nodes(1)=K2Node_FunctionResult'"K2Node_FunctionResult_1"'
+      GraphGuid=732E1E504DC7FDF30CE1A4BD3F21516C
+   End Object
+   Begin Object Name="GetbIsEnabled_0"
+      Begin Object Name="K2Node_FunctionResult_0"
+         FunctionReference=(MemberName="GetbIsEnabled_0")
+         bIsEditable=True
+         NodePosX=256
+         NodeGuid=5993D4044F9E129009557F9BBEF31A5F
+         CustomProperties Pin (PinId=AC3008A041886F14E016DBB0C2934D55,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_FunctionEntry_0 E8D92F0C4F5B13F27EC43C97FB48D5EE,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=D23D992744A7205C5A818CBE4CDD4269,PinName="ReturnValue",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties UserDefinedPin (PinName="ReturnValue",PinType=(PinCategory="bool"),DesiredPinDirection=EGPD_Input)
+      End Object
+      Begin Object Name="K2Node_FunctionEntry_0"
+         ExtraFlags=469893120
+         FunctionReference=(MemberName="GetbIsEnabled_0")
+         bIsEditable=True
+         NodeGuid=6EA438A44273623047E241AA40FF267D
+         CustomProperties Pin (PinId=E8D92F0C4F5B13F27EC43C97FB48D5EE,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_FunctionResult_0 AC3008A041886F14E016DBB0C2934D55,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema=Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      Nodes(0)=K2Node_FunctionEntry'"K2Node_FunctionEntry_0"'
+      Nodes(1)=K2Node_FunctionResult'"K2Node_FunctionResult_0"'
+      GraphGuid=8C63F58B4F067F3E724EBC9F5291CBA8
+   End Object
+   Begin Object Name="BndEvt__Button_43_K2Node_ComponentBoundEvent_75_OnButtonClickedEvent__DelegateSignature"
+      Begin Object Name="K2Node_CallFunction_36"
+         FunctionReference=(MemberName="ExecuteUbergraph_IngameShopUI",bSelfContext=True)
+         NodePosX=300
+         NodePosY=-2000
+         NodeGuid=1AF6C1B94E7269F2C57C67B20260C7DF
+         CustomProperties Pin (PinId=CA4D21554F4362D803BA95A46381B61F,PinName="execute",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_FunctionEntry_75 C6972E794D903F3AE69765A5F7B6723B,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=7FADAE68480F1A222846F5AB11C0E2A9,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=455BDFC54CCDFB56FF74E9AB570C2E64,PinName="self",PinFriendlyName=NSLOCTEXT("K2Node", "Target", "Target"),PinType.PinCategory="object",PinType.PinSubCategory="self",PinType.PinSubCategoryObject=WidgetBlueprintGeneratedClass'"/Game/Maps/Menu/IngameShopUI.SKEL_IngameShopUI_C"',PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=A092B63E4631EB00AB60B4935F1CAF6A,PinName="EntryPoint",PinType.PinCategory="int",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,DefaultValue="0",AutogeneratedDefaultValue="0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_FunctionEntry_75"
+         CustomGeneratedFunctionName="BndEvt__Button_43_K2Node_ComponentBoundEvent_75_OnButtonClickedEvent__DelegateSignature"
+         FunctionReference=(MemberParent=Package'"/Script/UMG"',MemberName="OnButtonClickedEvent__DelegateSignature")
+         NodePosX=-200
+         NodePosY=-2000
+         NodeGuid=016374044720EC7D5B290C9EEFC98CD9
+         CustomProperties Pin (PinId=C6972E794D903F3AE69765A5F7B6723B,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,LinkedTo=(K2Node_CallFunction_36 CA4D21554F4362D803BA95A46381B61F,),PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema=Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      Nodes(0)=K2Node_FunctionEntry'"K2Node_FunctionEntry_75"'
+      Nodes(1)=K2Node_CallFunction'"K2Node_CallFunction_36"'
+      GraphGuid=98D01BD94E20207B92A58C81C0225871
+   End Object
+   WidgetTree="WidgetTree"
+   Bindings(0)=(ObjectName="Button_43",PropertyName="bIsEnabled",FunctionName="GetbIsEnabled_0",SourcePath=(Segments=((Struct=WidgetBlueprintGeneratedClass'"IngameShopUI_C"',MemberName="GetbIsEnabled_0",MemberGuid=8C63F58B4F067F3E724EBC9F5291CBA8,IsProperty=False))))
+   Bindings(1)=(ObjectName="Button_43",PropertyName="Visibility",FunctionName="GetVisibility_0",SourcePath=(Segments=((Struct=WidgetBlueprintGeneratedClass'"IngameShopUI_C"',MemberName="GetVisibility_0",MemberGuid=732E1E504DC7FDF30CE1A4BD3F21516C,IsProperty=False))))
+   ParentClass=Class'"/Script/UMG.UserWidget"'
+   UbergraphPages(0)=EdGraph'"EventGraph"'
+   FunctionGraphs(0)=EdGraph'"GetbIsEnabled_0"'
+   FunctionGraphs(1)=EdGraph'"GetVisibility_0"'
+   CategorySorting(0)="Event Graph"
+   CategorySorting(1)="Ingame Shop UI"
+   CategorySorting(2)=""
+   BlueprintSystemVersion=2
+   LastEditedDocuments(0)=(EditedObject=EdGraph'"EventGraph"',SavedViewOffset=(X=-815.054993,Y=-833.733582),SavedZoomAmount=0.375000)
+   GeneratedClass=WidgetBlueprintGeneratedClass'"IngameShopUI_C"'
+   bLegacyNeedToPurgeSkelRefs=False
+   bLegacyGeneratedClassIsAuthoritative=True
+   BlueprintGuid=EB52243046D1D2BAC74F748A70D57F5A
+End Object
